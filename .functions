@@ -1,0 +1,5 @@
+# test function
+function getMiaName() {
+    local name="Eduardo Miano"
+    echo "$name"
+}

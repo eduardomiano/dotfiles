@@ -1,0 +1,77 @@
+
+general.live_config_reload = true
+
+general.working_directory = "/Volumes/Miano/Projects/gitanalytics"
+
+[terminal.shell]
+program = "/bin/zsh"
+# The 2 commands after login are needed to automatically attach to an existing tmux session
+# If no session exists, a new one is created
+#args = ["--login", "-c", "/opt/homebrew/bin/tmux attach || //opt/homebrew/bin/tmux"]
+
+[env]
+TERM = "xterm-256color"
+
+[window]
+option_as_alt = "Both"
+opacity = 0.9
+decorations = "Buttonless"
+startup_mode = "Maximized"
+padding = { x = 10, y = 10 }
+dynamic_padding = true
+dynamic_title = true
+#blur = true
+
+[font]
+size = 16.0
+normal.family = "MesloLGS Nerd Font Mono"
+
+[selection]
+save_to_clipboard = true
+
+
+
+
+
+
+# By Josean Martinez
+# Inspired by aura.toml
+
+# Default colors
+[colors.primary]
+background = '#011423'
+foreground = '#CBE0F0'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text = "#011423"
+cursor = "#47FF9C"
+
+[colors.normal]
+black = "#214969"
+red = "#E52E2E"
+green = "#44FFB1"
+yellow = "#FFE073"
+blue = "#0FC5ED"
+magenta = "#a277ff"
+cyan = "#24EAF7"
+white = "#24EAF7"
+
+[colors.bright]
+black = "#214969"
+red = "#E52E2E"
+green = "#44FFB1"
+yellow = "#FFE073"
+blue = "#A277FF"
+magenta = "#a277ff"
+cyan = "#24EAF7"
+white = "#24EAF7"
+
+[terminal]
+
+
+
+
+
+
+
